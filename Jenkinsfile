@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'echo "Building the new project now ..."' // 'sh' step runs a shell command
+                sh 'echo "Building the whole new project now ..."' // 'sh' step runs a shell command
                 sh 'ls -la' // List files
             }
         }
